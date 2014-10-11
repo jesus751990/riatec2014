@@ -75,11 +75,11 @@ a {
 }
 
 .columna1_4{
-	margin-left: 5px;
-	padding-left:0px; 
-	width: 23%;
+	margin: 0;
+	padding: 0; 
+	width: 25%;
 	float:left; 	
- 	background-color: white ;
+/* 	background-color: white ;*/
 }
 
 .columna2_3{
@@ -103,9 +103,10 @@ header .logo {
   background-position: left top;
   background-repeat: no-repeat;
   position: fixed;
-  /*top: 72px;*/ 
-  height: 46px;
-  width: 46px;
+  /*top: 72px;*/
+  margin: 1%; 
+  height: 75px;
+  width: 75px;
 }
 
 .titulo{
@@ -133,7 +134,6 @@ nav {
   overflow: hidden;
   width: 60%; 
   text-align: center;
-  vertical-align: center;
   position: fixed;
   display: block;
 }
@@ -239,10 +239,12 @@ nav {
 }
 
 .fila2{
-	padding-top:20%;
-	display: inline-block;
-	position: relative;
+	padding-top:0%;
+	/*display: inline-block;
+	position: relative;*/
 	float: left;
+  background-color: #E7D883;
+  /*border: solid;*/
 }
 
 .fila3{
@@ -262,18 +264,59 @@ nav {
 }
 
 #others_implementations{
-	line-height: 1;
+  line-height: 1;
 }
 
-/*.parrafoAside{
-	line-height: 0.5;
-}*/
-
-footer{
-	vertical-align: center;
+h4.invert {
+  padding-left: 10px;
+  font-size: 18px;
+  color: white;
+  line-height: 20px;
+  font-weight: normal;
+  margin-bottom: -0.5px;
+  margin-top: 1px;
+  background-color: gray;
 }
 
+h4.invert:hover {
+  color: white;
+  background-color: black;
+}
+
+#face{
+  margin-right: 10%;
+}
+#val_html, #val_css{
+  margin-bottom: 3%;
+}
+#face{
+  margin-right: 8%;
+  margin-top: 3%;
+}
+#html_5{
+  margin-top: 1%;
+}
+#twit, #linke{
+  margin-top: 3%;
+}
+#metaheuristic{
+  margin: 18% 3% 0% 3%;
+  width: 18%;
+  height: 18%;
+}
+img.float_right {
+    float: right;
+    margin: 5px 0 10px 20px;
+}
+
+img.float_right:hover {
+    background-color: white ;
+}
+footer img{
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
 footer a{
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 1%;
+	margin-right: 1%;
 }
