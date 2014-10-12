@@ -263,6 +263,10 @@ aside{
   border-radius: 20px;
 }
 
+strong{
+  font-weight: bold;
+}
+
 .parrafoAside{
   margin-left: 7px;
   margin-right: 10px;
@@ -300,6 +304,7 @@ aside{
 hr{
   height: 1px;
   background-color: #EA9463;
+  color: #EA9463;
 }
 
 p#sitewasup{
