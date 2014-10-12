@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>asdf</title>
+<title>inicio</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>
 <body>
 <header class="fixed-header">
 	<a href="index.html" class="columna1_4"><img class="logo" src="images/jMetalLogo.png" alt="no hay"/></a>
-	<h1 class="titulo">Welcome to <strong>jMetal</strong> web site</h1>
+	<h1 class="titulo Three-Dee">Welcome to <strong>jMetal</strong> web site</h1>
 	<nav>
 		<ul>
 			<li><a href="#">HOME</a></li>
@@ -21,18 +21,21 @@
 </header>
 <div class="fila1">
 	<aside class="columna1_3" >
-		<section id="download">
-			<h5>Download from <a href="http://sourceforge.net/projects/jmetal/"><img src="sflogo.gif" alt="no hay"/></a></h5>
+		<section class="parrafoAside">
+			<h3 class="margenH3">Download from </h3>
+			<a id="sourceforge" href="http://sourceforge.net/projects/jmetal/"><img id="imgsource" src="./images/sourceforge-logo.png" alt="imagen sourceforge no alojada"/></a>
 			<ul>
 				<li>
 					<a href="http://sourceforge.net/projects/jmetal/files/jmetal4.5/jmetal4.5.src.tar.gz/download">
-						jmetal4.5.jar.gz (binary jar file)
+						jmetal4.5.src.tar.gz 
 					</a>
+					(source code)
 				</li>
 				<li>
 					<a href="http://sourceforge.net/projects/jmetal/files/jmetal4.5/jmetal4.5.jar/download">
-						jmetal4.5.jar.gz (binary jar file)
+						jmetal4.5.jar.gz 
 					</a>
+					(binary jar file)
 				</li>
 				<li>
 					<a href="http://sourceforge.net/projects/jmetal/files/jmetal4.5/configurationFiles.tar.gz/download">
@@ -46,24 +49,24 @@
 				</li>
 			</ul>
 		</section>
-		<section class="parrafoAside" id="info">
-			<h5>Info</h5>
-			<p><strong>Latest version:</strong> jMetal 4.5 </p>
-			<p><strong>Downloads:</strong> 11.148 </p>
-			<p><strong>Last update:</strong> June 5ft 2014 </p>
-			<p><strong>This site was up in:</strong> November 27th 2008</p>
+		<section class="parrafoAside">
+			<h3 class="margenH3">Info</h3>
+			<p class="info"><strong>Latest version:</strong> jMetal 4.5 </p>
+			<p class="info"><strong>Downloads:</strong> 11.148 </p>
+			<p class="info"><strong>Last update:</strong> June 5ft 2014 </p>
+			<p class="info2"><strong>This site was up in:</strong> November 27th 2008</p>
 		</section>
-		<section class="parrafoAside" id="news">
-			<h5>news</h5>
-			<p><strong>January 21st 2014</strong></p> 
-			<p>jMetal 4.5 is available</p>
-			<p><strong>July 1st 2013</strong></p> 
-			<p>The new jMetal Web site is up</p>
-			<p><strong>May 2013</strong></p> 
-			<p>Working in a new Web site</p>
+		<section class="parrafoAside">
+			<h3 class="margenH3">News</h3>
+			<p class="info"><strong>January 21st 2014</strong></p> 
+			<p class="info">jMetal 4.5 is available</p>
+			<p class="info"><strong>July 1st 2013</strong></p> 
+			<p class="info">The new jMetal Web site is up</p>
+			<p class="info"><strong>May 2013</strong></p> 
+			<p class="info">Working in a new Web site</p>
 		</section>
 		<section class="parrafoAside" id="others_implementations">
-			<h5>Other implementations</h5>
+			<h3 class="margenH3">Other implementations</h3>
 			<ul>
 				<li>
 					<a href="http://jmetalcpp.sourceforge.net/">
@@ -78,26 +81,27 @@
 			</ul>
 		</section>
 	</aside>
-	<article class="columna2_3">
-		<h3>jMetal is ...</h3>
+	<article class="columna2_3 texto">
+		<h3><strong>jMetal is ...</strong></h3>
+		<hr>
 		<p><strong>jMetal</strong> stands for <strong>Metaheuristic Algorithms in Java</strong>, and it is an object-oriented Java-based framework for multi-objective optimization with metaheuristics.</p>
 		<section class="columna1_3" id="use">
 			<h4>You can use it to ...</h4>
 			<p>The object-oriented architecture of the framework and the included features allow you to: experiment with the provided classic and state-of-the-art techniques, develop your own algorithms, solve your optimization problems, integrate jMetal in other tools, etc.</p>
 		</section>
-		<section class="columna1_3" id="objetives">
+		<section class="columna1_3 texto" id="objetives">
 			<h4>Our motivation is ...</h4>
 			<p>The motivation driving us is to provide the programs we use in our own works to the multi-objective optimization research community. We have made an effort in trying to produce an ease-to-use software, and we are continuously modifying and extending jMetal according to our needs and those suggested by people interested in using it.</p>
 		</section>
-		<section class="columna1_3" id="multiobjetive">
+		<section class="columna1_3 texto" id="multiobjetive">
 			<h4>Only multi-objective algorithms?</h4>
 			<p>Developing single-objective versions from multi-objective algorithms is usually an easy task, so jMetal contains also single-objective genetic algorithms, evolution strategies, PSO, and DE. An exception is CMA-ES, which currently does not have a multi-objetive counterpart.</p>
 		</section>
 	</article>
 </div>
 <article class="fila2">
-	<section id="summary1" class="columna1_4">
-		<h4>Summary of features</h4>
+	<section id="summary1" class="columna1_4 texto">
+		<h4 class="invert">Summary of features</h4>
 		<ul>
 			<li>Portability: jMetal is written in Java</li>
 			<li>Multi-objective algoritms: NSGA-II (variants: ssNSGAII,<span class="rojo">NSGAIIadaptive*</span>, <span class="rojo">NSGAIIrandom*</span>), SPEA2, PAES, PESA-II, OMOPSO, MOCell, AbYSS, MOEA/D, Densea, CellDE, GDE3, FastPGA, IBEA, SMPSO, SMPSOhv, SMS-EMOA, dMOPSO</li>
@@ -105,7 +109,7 @@
 			<li>Parallel algorithms: pNSGAII, pSMPSO, pMOEAD, pgGA</li>			
 		</ul>
 	</section>
-	<section id="summary2" class="columna1_4">
+	<section id="summary2" class="columna1_4 texto">
 	<ul>
 		<li>Included problems:
 			<ul>
@@ -120,9 +124,9 @@
 	</ul>
 	<p>(<span class="rojo">*</span>: new features)</p>
 	</section>
-	<img class="columna1_4" src="images/" alt="no hay"/>
-	<section id="documentation_references" class="columna1_4">
-		<h4>Documentation</h4>
+			<img class="columna1_4" src="images/jMetalG.png" alt="Metaheruistic logo"/>
+	<section id="documentation_references" class="columna1_4 texto">
+		<h4 class="invert">Documentation</h4>
 		<ul>
 			<li>
 				A.J. Nebro, J.J. Durillo (January 2014).
@@ -132,7 +136,7 @@
 				<a href="http://jmetal.sourceforge.net/javadoc/index.html">JavaDoc</a>
 			</li>
 		</ul>
-		<h4>References</h4>
+		<h4 class="invert">References</h4>
 		<ul>
 			<li>
 				J.J. Durillo, A.J. Nebro  
@@ -164,13 +168,14 @@
 	</section>
 </article>
 <footer class="columna1">
-	<a href="http://validator.w3.org/check?uri=referer"><img src="images/valid-xhtml10.png" alt="no hay"/></a>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3"><img src="images/vcss.gif" alt="no hay"/></a>
-	<a href="http://creativecommons.org/licenses/LGPL/2.1/"><img src="images/LPGL.png" alt="no hay"/></a>
-	<a href="https://www.facebook.com/jmetalframework"><img src="images/facebook.png" alt="no hay"/></a>
-	<a href="https://twitter.com/jmetalframework"><img src="images/twitter.png" alt="no hay"/></a>
-	<a href="http://www.linkedin.com/groups/jMetal-User-Group-4441726?gid=4441726&amp;trk=hb_side_g"><img src="images/linkedin.png" alt="no hay"/></a>
-	<a href="http://www.w3.org/html/logo/"><img src="images/html5css3.png" alt="no hay"/></a>
+	<a href="http://validator.w3.org/check?uri=referer"><img id="val_html" src="images/valid-xhtml10.png" alt="Validador HTML"/></a>
+	<a href="http://jigsaw.w3.org/css-validator/"><img id="val_css" src="images/vcss.gif" alt="Validador CSS3"/></a>
+	<a href="http://creativecommons.org/licenses/LGPL/2.1/"><img id="licencia" src="images/LPGL.png" alt="Licencia LGPL"/></a>
+	<a href="http://www.w3.org/html/logo/"><img id="html_5" class="float_right" src="images/html5css3.png" alt="no hay"/></a>
+	<a href="https://www.facebook.com/jmetalframework"><img id="face" class="float_right" src="images/facebook.png" alt="no hay"/></a>
+	<a href="https://twitter.com/jmetalframework"><img id="twit" class="float_right" src="images/twitter.png" alt="no hay"/></a>
+	<a href="http://www.linkedin.com/groups/jMetal-User-Group-4441726?gid=4441726&amp;trk=hb_side_g"><img id="linke" class="float_right" src="images/linkedin.png" alt="no hay"/></a>
+	
 </footer>
 </body>
 </html>
