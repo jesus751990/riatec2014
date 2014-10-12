@@ -278,7 +278,7 @@ strong{
   color: white;
 }
 
-.parrafoAside:hover h3{
+h3.margenH3:hover{
   font-size: large;
   background-color: black;
   color: white;
